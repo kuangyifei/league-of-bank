@@ -8,6 +8,7 @@ import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 // This annotation tells Spring Boot to “guess” how you will want to configure Spring,
@@ -18,8 +19,14 @@ public class Application {
 
     @RequestMapping("/")
     @ResponseBody
-    String home() {
+    String hello() {
         return "Hello World!";
+    }
+
+    @RequestMapping("/home")
+    public ModelAndView home() {
+        ModelAndView mv = new ModelAndView("/index");
+        return mv;
     }
 
     public static void main(String[] args) throws Exception {
