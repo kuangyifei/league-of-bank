@@ -18,12 +18,17 @@ public class GreyRuleDescription {
     private String ruleName;
 
     /**
-     * 用程序中的变量来表示证据时，变量的数据类型
+     * 证据名称
      */
-    private ProofDataType proofDataType;
+    private String proofName;
 
     /**
-     * 判断证据是否满足规则要求时，需要对变量采取的操作类型
+     * 陈述证据的内容的类型
+     */
+    private ProofContentType proofContentType;
+
+    /**
+     * 判断证据是否满足规则要求时，需要对证据采取的操作类型
      */
     private ProofOperationType proofOperationType;
 
@@ -31,6 +36,9 @@ public class GreyRuleDescription {
      * 可以通过规则的证据，给出列表中的任何一个即可
      */
     private List<String> validProofs;
+
+    public GreyRuleDescription() {
+    }
 
     public String getRuleId() {
         return ruleId;
@@ -48,12 +56,20 @@ public class GreyRuleDescription {
         this.ruleName = ruleName;
     }
 
-    public ProofDataType getProofDataType() {
-        return proofDataType;
+    public String getProofName() {
+        return proofName;
     }
 
-    public void setProofDataType(ProofDataType proofDataType) {
-        this.proofDataType = proofDataType;
+    public void setProofName(String proofName) {
+        this.proofName = proofName;
+    }
+
+    public ProofContentType getProofContentType() {
+        return proofContentType;
+    }
+
+    public void setProofContentType(ProofContentType proofContentType) {
+        this.proofContentType = proofContentType;
     }
 
     public ProofOperationType getProofOperationType() {
