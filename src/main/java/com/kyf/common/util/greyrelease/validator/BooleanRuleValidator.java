@@ -1,8 +1,8 @@
-package com.kyf.common.util.greyRelease.validator;
+package com.kyf.common.util.greyrelease.validator;
 
-import com.kyf.common.util.greyRelease.ClientProof;
-import com.kyf.common.util.greyRelease.GreyRuleDescription;
-import com.kyf.common.util.greyRelease.ProofOperationType;
+import com.kyf.common.util.greyrelease.ClientProof;
+import com.kyf.common.util.greyrelease.GreyRuleDescription;
+import com.kyf.common.util.greyrelease.ProofOperationType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,7 +22,7 @@ public class BooleanRuleValidator implements IGreyRuleValidator {
 
     /**
      * 验证证据内容是否满足规则要求
-     * 请不要在除了{@link com.kyf.common.util.greyRelease.GreyRule#pass(ClientProof)} 以外的地方调用该方法！！！
+     * 请不要在除了{@link com.kyf.common.util.greyrelease.GreyRule#pass(ClientProof)} 以外的地方调用该方法！！！
      * @param ruleDescription
      * @param proofContent
      * @return

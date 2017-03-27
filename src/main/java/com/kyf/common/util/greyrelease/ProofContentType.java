@@ -1,4 +1,4 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
 /**
  * 陈述证据的内容的类型

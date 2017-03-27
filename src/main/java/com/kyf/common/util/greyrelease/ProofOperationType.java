@@ -1,4 +1,4 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
 /**
  * 判断证据是否满足规则要求时，需要对证据采取的操作类型

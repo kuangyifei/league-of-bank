@@ -1,8 +1,8 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
 import com.alibaba.fastjson.JSON;
-import com.kyf.common.util.greyRelease.validator.DefaultGreyRuleValidatorFactory;
-import com.kyf.common.util.greyRelease.validator.IGreyRuleValidatorFactory;
+import com.kyf.common.util.greyrelease.validator.DefaultGreyRuleValidatorFactory;
+import com.kyf.common.util.greyrelease.validator.IGreyRuleValidatorFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,6 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
-import com.kyf.common.util.greyRelease.validator.IGreyRuleValidator;
+import com.kyf.common.util.greyrelease.validator.IGreyRuleValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

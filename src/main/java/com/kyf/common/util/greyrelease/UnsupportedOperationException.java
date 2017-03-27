@@ -1,4 +1,4 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
 /**
  * Created by kuangyifei on 17-3-17.

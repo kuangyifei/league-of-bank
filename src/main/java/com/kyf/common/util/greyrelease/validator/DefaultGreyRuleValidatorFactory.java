@@ -1,7 +1,7 @@
-package com.kyf.common.util.greyRelease.validator;
+package com.kyf.common.util.greyrelease.validator;
 
-import com.kyf.common.util.greyRelease.ProofContentType;
-import com.kyf.common.util.greyRelease.ProofOperationType;
+import com.kyf.common.util.greyrelease.ProofContentType;
+import com.kyf.common.util.greyrelease.ProofOperationType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

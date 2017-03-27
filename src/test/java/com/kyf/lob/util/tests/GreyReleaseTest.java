@@ -1,7 +1,7 @@
 package com.kyf.lob.util.tests;
 
-import com.kyf.common.util.greyRelease.*;
-import com.kyf.common.util.greyRelease.UnsupportedOperationException;
+import com.kyf.common.util.greyrelease.*;
+import com.kyf.common.util.greyrelease.UnsupportedOperationException;
 
 /**
  * Created by kuangyifei on 17-3-17.

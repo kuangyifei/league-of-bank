@@ -1,7 +1,7 @@
-package com.kyf.common.util.greyRelease;
+package com.kyf.common.util.greyrelease;
 
-import com.kyf.common.util.greyRelease.validator.IGreyRuleValidator;
-import com.kyf.common.util.greyRelease.validator.IGreyRuleValidatorFactory;
+import com.kyf.common.util.greyrelease.validator.IGreyRuleValidator;
+import com.kyf.common.util.greyrelease.validator.IGreyRuleValidatorFactory;
 
 /**
  * Created by kuangyifei on 17-3-18.
